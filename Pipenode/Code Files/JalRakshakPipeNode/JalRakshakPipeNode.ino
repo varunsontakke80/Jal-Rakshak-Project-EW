@@ -16,7 +16,7 @@
 #define NODE_ID             1
 #define NODE_LATITUDE       0.000000  
 #define NODE_LONGITUDE      0.000000  
-
+//before upload edit the data here
 // ==================================================================
 // HARDWARE PIN DEFINITIONS
 // ==================================================================

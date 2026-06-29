@@ -8,10 +8,10 @@ import time
 # ==========================================
 # CORE CONFIGURATION
 # ==========================================
-WEB_API_KEY = "AIzaSyBuMFYY3y5kA0Tp451Ki4eqZ28NhdZA6pw"
+WEB_API_KEY = "xxxxxxxxxxxxxxxxxxxxxx"
 DATABASE_URL = "https://jal-rakshak-indore-default-rtdb.asia-southeast1.firebasedatabase.app"
-USER_EMAIL = "varunsontakke2@gmail.com"
-USER_PASS = "Varuna@#123"
+USER_EMAIL = "xxxxxxxxxxxxxxxxxxx"
+USER_PASS = "xxxxxxxxxxxxxxxxxx"
 
 # ==========================================
 # FIREBASE API UTILS
@@ -61,7 +61,8 @@ with tab1:
         st.plotly_chart(fig, use_container_width=True)
         
         st.subheader("📍 Live Node Map")
-        st.map(pd.DataFrame({'lat': [data.get('latitude', 22.7196)], 'lon': [data.get('longitude', 75.8577)]}))
+        st.map(pd.DataFrame({'lat': [data.get('latitude', 000000)], 'lon': [data.get('longitude', 000000)]}))
+        #put default city Longitude and latitude here in place of 00000000
     else:
         st.info(f"Node {node_id} currently offline or awaiting transmission...")
 

@@ -30,10 +30,10 @@ static LGFX lcd;
 #define BUZZER_PIN    21 // Emergency Alarm
 
 // --- Firebase Credentials ---
-#define Web_API_KEY "AIzaSyBuMFYY3y5kA0Tp451Ki4eqZ28NhdZA6pw"
+#define Web_API_KEY "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 #define DATABASE_URL "https://jal-rakshak-indore-default-rtdb.asia-southeast1.firebasedatabase.app"
-#define USER_EMAIL "varunsontakke2@gmail.com"
-#define USER_PASS "Varuna@#123"
+#define USER_EMAIL "xxxxxxxxxxxxxxxxxx"
+#define USER_PASS "xxxxxxxxxxxx"
 
 UserAuth user_auth(Web_API_KEY, USER_EMAIL, USER_PASS);
 FirebaseApp firebase_app;
